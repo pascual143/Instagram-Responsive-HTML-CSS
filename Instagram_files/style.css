@@ -1,0 +1,80 @@
+/*background color = #fafafa*/
+/*button blue = #3897f0*/
+/*border color = #e6e6e6*/
+/*footer link color = #003569*/
+/*text grey color = #999*/
+
+aside and main row, footer column
+* {
+  box-sizing: border-box;
+
+ }
+
+body {
+  font-family: 'Karla', sans-serif;
+  margin: auto;
+}
+
+/*MAIN*/
+main {
+  text-align: center;
+}
+
+/*SECTION1*/
+section {
+  text-align: center;
+}
+aside, main {
+  flex-direction: row;
+
+}
+/*SECTION2*/
+
+form {
+  display: wrap;
+  flex-direction: column;
+}
+/*SECTION3*/
+h3 {
+  font-size: 10px;
+}
+.wrap-logos {
+  display: wrap;
+  flex-direction: row;
+}
+/*ASIDE*/
+aside {
+  order: -1;
+}
+
+/*FOOTER*/
+
+footer {
+    text-align: center;
+    padding: 20px 10px;
+    padding-top: 100%;
+  }
+
+footer ul {
+    padding: inherit;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    display: inline-flex;
+  }
+footer ul li {
+  padding: 10px;
+}
+
+footer ul li:last-child {
+  padding-left: 100%;
+
+}
+/* Media Queries */
+
+/* Phone */
+@media only screen and (max-width: 720px) {
+  aside {
+    display: none;
+  }
+}

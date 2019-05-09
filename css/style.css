@@ -1,0 +1,91 @@
+/*background color = #fafafa*/
+/*button blue = #3897f0*/
+/*border color = #e6e6e6*/
+/*footer link color = #003569*/
+/*text grey color = #999*/
+
+* {
+  box-sizing: border-box;
+ }
+
+body {
+  font-family: 'Karla', sans-serif;
+}
+
+/*MAIN*/
+main {
+  display: flex;
+  margin: 60px;
+  padding: 50px;
+  text-align: center;
+  float: right;
+}
+
+/*SECTION1*/
+section {
+  border-color: #e6e6e6;
+  text-align: center;
+  border: 10px;
+  margin: 20px;
+  margin-left: 120px;
+
+}
+
+/*SECTION2*/
+form {
+  flex-direction: column;
+    padding-left: 10px;
+}
+input {
+  padding: 15px;
+  margin: 5px;
+  border-radius: 4px;
+  display: block;
+  min-width: 100%;
+}
+/*SECTION3*/
+h3 {
+  font-size: 10px;
+}
+.wrap-logos {
+  flex-direction: row;
+}
+
+h3, a {
+  display: inline;
+}
+
+button {
+  background-color: #3897f0;
+  border-radius: 4px;
+}
+/*FOOTER*/
+
+footer {
+    text-align: center;
+    padding: 20px 10px;
+    padding-bottom: 100%;
+  }
+
+footer ul {
+    padding: inherit;
+    margin-bottom: 3px;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    display: inline-flex;
+  }
+footer ul li {
+  padding: 10px;
+}
+
+footer ul li:last-child {
+}
+/* Media Queries */
+
+/* Phone */
+@media only screen and (max-width: 720px) {
+  .wraps1 {
+    display: none;
+  }
+}
